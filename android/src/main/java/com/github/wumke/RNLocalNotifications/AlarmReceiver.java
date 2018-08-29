@@ -48,7 +48,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
                 NotificationCompat.Builder mBuilder =
                         new NotificationCompat.Builder(context)
-                                .setSmallIcon(res.getIdentifier("notification_small", "drawable", packageName))
+                                .setSmallIcon(res.getIdentifier("ic_launcher", "mipmap", packageName))
                                 .setLargeIcon(largeIconBitmap)
                                 .setContentTitle(appName)
                                 .setContentText(text)
